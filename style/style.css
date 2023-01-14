@@ -1,0 +1,43 @@
+  <style>
+    /* Add a responsive layout for the website */
+    body {
+      margin: auto;
+      font-family: Arial, Helvetica, sans-serif;
+      max-width: 1080px;
+    }
+
+    /* Add a responsive layout for the header */
+    .header {
+      background-image: linear-gradient(to bottom right, red, yellow);
+      padding: 30px;
+      text-align: center;
+      font-size:50px;
+    }
+
+    h2 {
+      width:100%;
+    }
+
+
+    /* Add a responsive layout for the text */
+    .text {
+      font-size: 22px;
+      padding: 50px;
+    }
+
+    /* Add a responsive layout for the images */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      flex:25%;
+      padding:1%;
+    }
+
+    /* Add a responsive layout for the audio player */
+    audio {
+      width: 100%;
+    }
+  </style>
